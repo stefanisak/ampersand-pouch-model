@@ -1,0 +1,19 @@
+{
+  "name": "ampersand-pouch-model",
+  "version": "0.0.1",
+  "description": "",
+  "main": "ampersand-pouch-model.js",
+  "scripts": {
+    "test": "mocha --watch --require should --ui tdd --reporter spec --compilers coffee:coffee-script/register"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "coffee-script": "^1.9.0",
+    "should": "^5.2.0"
+  },
+  "author": "Stefan Isak",
+  "license": "MIT",
+  "dependencies": {
+    "ampersand-model": "^5.0.3"
+  }
+}
